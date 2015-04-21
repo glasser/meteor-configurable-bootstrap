@@ -33,7 +33,6 @@ Package.onUse(function(api) {
     'labels.less',
     'list-group.less',
     'media.less',
-    'mixins',
     'mixins.less',
     'modals.less',
     'navbar.less',
@@ -55,5 +54,38 @@ Package.onUse(function(api) {
     'type.less',
     'utilities.less',
     'variables.less',
-    'wells.less']);
+    'wells.less'
+  ]);
+  api.addFiles([
+    'mixins/alerts.less',
+    'mixins/background-variant.less',
+    'mixins/border-radius.less',
+    'mixins/buttons.less',
+    'mixins/center-block.less',
+    'mixins/clearfix.less',
+    'mixins/forms.less',
+    'mixins/gradients.less',
+    'mixins/grid-framework.less',
+    'mixins/grid.less',
+    'mixins/hide-text.less',
+    'mixins/image.less',
+    'mixins/labels.less',
+    'mixins/list-group.less',
+    'mixins/nav-divider.less',
+    'mixins/nav-vertical-align.less',
+    'mixins/opacity.less',
+    'mixins/pagination.less',
+    'mixins/panels.less',
+    'mixins/progress-bar.less',
+    'mixins/reset-filter.less',
+    'mixins/resize.less',
+    'mixins/responsive-visibility.less',
+    'mixins/size.less',
+    'mixins/tab-focus.less',
+    'mixins/table-row.less',
+    'mixins/text-emphasis.less',
+    'mixins/text-overflow.less',
+    'mixins/vendor-prefixes.less'
+  ]);
+
 });
