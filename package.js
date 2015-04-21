@@ -1,7 +1,7 @@
 // XXX BBP update metadata
 Package.describe({
   name: 'glasser:configurable-bootstrap',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'configurable bootstrap package',
   // URL to the Git repository containing the source code for this package.
@@ -88,4 +88,14 @@ Package.onUse(function(api) {
     'mixins/vendor-prefixes.less'
   ]);
 
+  // Static assets.
+  api.addFiles([
+    'glyphicons-halflings-regular.eot',
+    'glyphicons-halflings-regular.woff',
+    'glyphicons-halflings-regular.svg',
+    'glyphicons-halflings-regular.woff2',
+    'glyphicons-halflings-regular.ttf'
+  ]);
+
+  api.addFiles(['meteor.less']);
 });
