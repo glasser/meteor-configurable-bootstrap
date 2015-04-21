@@ -90,11 +90,11 @@ Package.onUse(function(api) {
 
   // Static assets.
   api.addFiles([
-    'glyphicons-halflings-regular.eot',
-    'glyphicons-halflings-regular.woff',
-    'glyphicons-halflings-regular.svg',
-    'glyphicons-halflings-regular.woff2',
-    'glyphicons-halflings-regular.ttf'
+    'fonts/glyphicons-halflings-regular.eot',
+    'fonts/glyphicons-halflings-regular.woff',
+    'fonts/glyphicons-halflings-regular.svg',
+    'fonts/glyphicons-halflings-regular.woff2',
+    'fonts/glyphicons-halflings-regular.ttf'
   ]);
 
   api.addFiles(['meteor.less']);
