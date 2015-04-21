@@ -1,6 +1,6 @@
 // XXX BBP update metadata
 Package.describe({
-  name: 'configurable-bootstrap',
+  name: 'glasser:configurable-bootstrap',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
