@@ -1,3 +1,4 @@
+// XXX BBP update metadata
 Package.describe({
   name: 'configurable-bootstrap',
   version: '0.0.1',
@@ -11,12 +12,48 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-//  api.versionsFrom('1.1.0.2');
-  api.addFiles('configurable-bootstrap.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('configurable-bootstrap');
-  api.addFiles('configurable-bootstrap-tests.js');
+  api.use('less@2.5.0_1');
+  api.addFiles([
+    'alerts.less',
+    'badges.less',
+    'bootstrap.less',
+    'breadcrumbs.less',
+    'button-groups.less',
+    'buttons.less',
+    'carousel.less',
+    'close.less',
+    'code.less',
+    'component-animations.less',
+    'dropdowns.less',
+    'forms.less',
+    'glyphicons.less',
+    'grid.less',
+    'input-groups.less',
+    'jumbotron.less',
+    'labels.less',
+    'list-group.less',
+    'media.less',
+    'mixins',
+    'mixins.less',
+    'modals.less',
+    'navbar.less',
+    'navs.less',
+    'normalize.less',
+    'pager.less',
+    'pagination.less',
+    'panels.less',
+    'popovers.less',
+    'print.less',
+    'progress-bars.less',
+    'responsive-embed.less',
+    'responsive-utilities.less',
+    'scaffolding.less',
+    'tables.less',
+    'theme.less',
+    'thumbnails.less',
+    'tooltip.less',
+    'type.less',
+    'utilities.less',
+    'variables.less',
+    'wells.less']);
 });
